@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyBook Cafe</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+  </head>
+  <body>
+
+    <!-- Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#FF9800"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03A9F4"></li>
+            <li data-color="#4CAF50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- Settings Box -->
+
+    <!-- Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Sales</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Our Products</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Our Clients</div>
+      </div>
+    </div>
+    <!-- Nav Bullets -->
+
+    <!-- Landing -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo"><i><span>SkyBook</span> Cafe</i></div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Sales</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Products</a></li>
+              <li><a href="#" data-section=".testimonials">Clients</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>Welcome To <span>SkyBook</span> Cafe</h1>
+        <p>We make coffee with love, so we are always the best in making coffee, and you can try it yourself</p>
+      </div>
+    </div>
+    <!-- Landing -->
+
+    <!-- About Us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>Our place is always at the top because we have learned to make beautiful coffee in a wonderful way to satisfy all our
+          customers of all kinds, so we are always brilliant in coffee of all kinds and we enjoy the admiration of many people
+          around the world and we have branches in all parts of the world</p>
+        </div>
+        <div class="image-box">
+          <img src="imgs/about.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- About Us -->
+
+    <!-- Sales -->
+    <div class="sales">
+      <div class="container">
+        <h2>Our Sales</h2>
+        <div class="sales-box">
+          <div class="sales-name">Turkish Coffee</div>
+          <div class="sales-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="sales-box">
+          <div class="sales-name">Espresso</div>
+          <div class="sales-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="sales-box">
+          <div class="sales-name">Cappuccino</div>
+          <div class="sales-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="sales-box">
+          <div class="sales-name">Latte</div>
+          <div class="sales-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="sales-box">
+          <div class="sales-name">Americano</div>
+          <div class="sales-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="sales-box">
+          <div class="sales-name">Flat White</div>
+          <div class="sales-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sales -->
+
+    <!-- Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="imgs/gallary1.jpg" alt="Coffee">
+          <img src="imgs/gallary2.jpg" alt="Coffee">
+          <img src="imgs/gallary3.jpg" alt="Coffee">
+          <img src="imgs/gallary4.jpg" alt="Coffee">
+          <img src="imgs/gallary5.jpg" alt="Coffee">
+          <img src="imgs/gallary6.jpg" alt="Coffee">
+          <img src="imgs/gallary7.jpg" alt="Coffee">
+          <img src="imgs/gallary8.jpg" alt="Coffee">
+          <img src="imgs/gallary9.jpg" alt="Coffee">
+          <img src="imgs/gallary10.jpg" alt="Coffee">
+        </div>
+      </div>
+    </div>
+    <!-- Gallery -->
+
+    <!-- Timeline -->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2023</div>
+          <div class="left">
+            <div class="content">
+              <h3>SkyBook Cafe</h3>
+              <p>We thank all our customers who trusted us to provide them with the best services</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>SkyBook Cafe</h3>
+              <p>We offer a discount to our customers who have always been with us in every step we take forward, and we thank them for
+              encouraging us to continue</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>SkyBook Cafe</h3>
+              <p>We would like to thank all the people who came to us to taste our amazing coffee and we want them to give us their
+              opinion about it.</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>SkyBook Cafe</h3>
+              <p>This is the first branch of our branches in the production of coffee of all kinds. We hope that you will like it</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Timeline -->
+
+    <!-- Products -->
+    <div class="products">
+      <h2>Our Products</h2>
+      <div class="container">
+        <div class="prod-box">
+          <img src="imgs/product1.jpg" alt="">
+          <h4>Turkish Coffee</h4>
+          <p>Very finely ground coffee beans without filtering.</p>
+        </div>
+        <div class="prod-box">
+          <img src="imgs/product2.avif" alt="">
+          <h4>Espresso</h4>
+          <p>100% finely ground coffee and hot water.</p>
+        </div>
+        <div class="prod-box">
+          <img src="imgs/product3.jpg" alt="">
+          <h4>Cappuccino</h4>
+          <p>Single shot of espresso, as the barista pours hot foamy milk.</p>
+        </div>
+        <div class="prod-box">
+          <img src="imgs/product4.jpg" alt="">
+          <h4>Latte</h4>
+          <p>Espresso and lots of steamed milk, topped with a final thin layer of milk foam.</p>
+        </div>
+        <div class="prod-box">
+          <img src="imgs/product5.jpg" alt="">
+          <h4>Americano</h4>
+          <p>Water and espresso.</p>
+        </div>
+        <div class="prod-box">
+          <img src="imgs/product6.jpg" alt="">
+          <h4>Flat White</h4>
+          <p>A mixture of finely foamed milk poured over one or two espresso shots.</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- Products -->
+
+    <!-- Testimonials -->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Our Clients</h2>
+        <div class="ts-box">
+          <p>I am happy with the product its amazing and the price was amazing.</p>
+          <div class="person-info">
+            <img src="imgs/test1.jpg" alt="">
+            <h4>Ahmed Mohamed</h4>
+            <p>Manager Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>I am happy with the product its amazing and the price was amazing.</p>
+          <div class="person-info">
+            <img src="imgs/test1.jpg" alt="">
+            <h4>Mohamed Hassan</h4>
+            <p>Manager Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>I am happy with the product its amazing and the price was amazing.</p>
+          <div class="person-info">
+            <img src="imgs/test1.jpg" alt="">
+            <h4>Ali Khaled</h4>
+            <p>Manager Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- Testimonials -->
+
+    <!-- Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username">
+            <input type="text" placeholder="Your Phone" name="phone">
+            <input type="email" placeholder="Your Email" name="email">
+            <input type="text" placeholder="Subject" name="subject">
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Contact Us -->
+
+    <!-- Footer -->
+    <div class="footer">© 2023 | <span>SkyBook</span> All Right Reseved</div>
+    <!-- Footer -->
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>
